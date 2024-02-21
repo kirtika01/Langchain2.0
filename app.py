@@ -9,7 +9,6 @@ import os
 
 load_dotenv()
 
-
 def get_openai_response(question):
     llm = ChatOpenAI(
         openai_api_key=os.getenv("OPEN_API_KEY"),
